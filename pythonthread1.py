@@ -15,7 +15,7 @@ def counterplus():
 def counterminus():
     global counter
     print("[minus] Starting thread.")
-    for i in range(0, 2):
+    for i in range(0, LOOP_COUNT):
         counter -=1
         print(f"[minus] working {counter}")
 
